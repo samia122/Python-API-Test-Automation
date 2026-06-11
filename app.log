@@ -1,0 +1,73 @@
+2026-06-08 11:10:30,013 - WARNING - Attempt 1 failed for john@example.com (status=405)
+2026-06-08 11:10:31,094 - WARNING - Attempt 2 failed for john@example.com (status=405)
+2026-06-08 11:10:32,203 - WARNING - Attempt 3 failed for john@example.com (status=405)
+2026-06-08 11:10:33,256 - WARNING - Attempt 1 failed for jane@example.com (status=405)
+2026-06-08 11:10:34,414 - WARNING - Attempt 2 failed for jane@example.com (status=405)
+2026-06-08 11:10:35,498 - WARNING - Attempt 3 failed for jane@example.com (status=405)
+2026-06-08 11:10:36,500 - INFO - Created 0/2 users
+2026-06-08 11:19:02,056 - WARNING - Attempt 1 failed for john@example.com (status=405)
+2026-06-08 11:19:03,090 - WARNING - Attempt 2 failed for john@example.com (status=405)
+2026-06-08 11:19:04,146 - WARNING - Attempt 3 failed for john@example.com (status=405)
+2026-06-08 11:19:05,193 - WARNING - Attempt 1 failed for jane@example.com (status=405)
+2026-06-08 11:19:06,240 - WARNING - Attempt 2 failed for jane@example.com (status=405)
+2026-06-08 11:19:07,282 - WARNING - Attempt 3 failed for jane@example.com (status=405)
+2026-06-08 11:19:08,283 - INFO - Created 0/2 users
+2026-06-08 11:33:00,525 - WARNING - Attempt 1 failed for john@example.com (status=405)
+2026-06-08 11:33:01,565 - WARNING - Attempt 2 failed for john@example.com (status=405)
+2026-06-08 11:33:02,599 - WARNING - Attempt 3 failed for john@example.com (status=405)
+2026-06-08 11:33:03,644 - WARNING - Attempt 1 failed for jane@example.com (status=405)
+2026-06-08 11:33:05,090 - WARNING - Attempt 2 failed for jane@example.com (status=405)
+2026-06-08 11:33:06,134 - WARNING - Attempt 3 failed for jane@example.com (status=405)
+2026-06-08 11:33:07,134 - INFO - Created 0/2 users
+2026-06-08 11:34:26,039 - WARNING - Attempt 1 failed for john@example.com (status=401)
+2026-06-08 11:34:27,599 - WARNING - Attempt 2 failed for john@example.com (status=401)
+2026-06-08 11:34:29,094 - WARNING - Attempt 3 failed for john@example.com (status=401)
+2026-06-08 11:34:30,620 - WARNING - Attempt 1 failed for jane@example.com (status=401)
+2026-06-08 11:34:32,121 - WARNING - Attempt 2 failed for jane@example.com (status=401)
+2026-06-08 11:34:33,684 - WARNING - Attempt 3 failed for jane@example.com (status=401)
+2026-06-08 11:34:34,687 - INFO - Created 0/2 users
+2026-06-08 11:35:10,950 - WARNING - Attempt 1 failed for john@example.com (status=401)
+2026-06-08 11:35:12,471 - WARNING - Attempt 2 failed for john@example.com (status=401)
+2026-06-08 11:35:13,953 - WARNING - Attempt 3 failed for john@example.com (status=401)
+2026-06-08 11:35:15,433 - WARNING - Attempt 1 failed for jane@example.com (status=401)
+2026-06-08 11:35:16,936 - WARNING - Attempt 2 failed for jane@example.com (status=401)
+2026-06-08 11:35:18,431 - WARNING - Attempt 3 failed for jane@example.com (status=401)
+2026-06-08 11:35:19,433 - INFO - Created 0/2 users
+2026-06-08 11:36:33,103 - WARNING - Attempt 1 failed for john@example.com (status=401)
+2026-06-08 11:36:34,590 - WARNING - Attempt 2 failed for john@example.com (status=401)
+2026-06-08 11:36:36,054 - WARNING - Attempt 3 failed for john@example.com (status=401)
+2026-06-08 11:36:37,568 - WARNING - Attempt 1 failed for jane@example.com (status=401)
+2026-06-08 11:36:39,048 - WARNING - Attempt 2 failed for jane@example.com (status=401)
+2026-06-08 11:36:40,632 - WARNING - Attempt 3 failed for jane@example.com (status=401)
+2026-06-08 11:36:41,635 - INFO - Created 0/2 users
+2026-06-08 11:39:53,265 - ERROR - Attempt 1 error for john@example.com: HTTPSConnectionPool(host='reqres.in', port=443): Read timed out. (read timeout=10)
+2026-06-08 11:40:01,383 - WARNING - Attempt 2 failed for john@example.com (status=401)
+2026-06-08 11:40:08,964 - WARNING - Attempt 3 failed for john@example.com (status=401)
+2026-06-08 11:40:14,208 - WARNING - Attempt 1 failed for jane@example.com (status=401)
+2026-06-08 11:40:21,598 - WARNING - Attempt 2 failed for jane@example.com (status=401)
+2026-06-08 11:40:25,966 - WARNING - Attempt 3 failed for jane@example.com (status=401)
+2026-06-08 11:40:26,969 - INFO - Created 0/2 users
+2026-06-08 11:40:37,507 - INFO - User created: john@example.com
+2026-06-08 11:40:38,070 - INFO - User created: jane@example.com
+2026-06-08 11:40:38,072 - INFO - Created 2/2 users
+2026-06-08 11:40:38,393 - ERROR - Verification failed. Missing users: ['john@example.com', 'jane@example.com']
+2026-06-08 11:44:01,995 - ERROR - Unexpected error: name 'users' is not defined
+2026-06-08 11:44:03,180 - INFO - User created: john@example.com
+2026-06-08 11:44:03,786 - INFO - User created: jane@example.com
+2026-06-08 11:44:03,788 - INFO - Created 2/2 users
+2026-06-08 11:45:14,191 - ERROR - Verification failed. Missing users: ['john@example.com', 'jane@example.com']
+2026-06-08 11:45:15,422 - INFO - User created: john@example.com
+2026-06-08 11:45:15,978 - INFO - User created: jane@example.com
+2026-06-08 11:45:15,980 - INFO - Created 2/2 users
+2026-06-09 12:25:35,945 - ERROR - Verification failed. Missing users: ['john@example.com', 'jane@example.com']
+2026-06-09 12:25:37,026 - INFO - User created: john@example.com
+2026-06-09 12:25:37,764 - INFO - User created: jane@example.com
+2026-06-09 12:25:37,766 - INFO - Created 2/2 users
+2026-06-09 12:36:29,872 - ERROR - Verification failed. Missing users: ['john@example.com', 'jane@example.com']
+2026-06-09 12:36:31,026 - INFO - User created: john@example.com
+2026-06-09 12:36:31,602 - INFO - User created: jane@example.com
+2026-06-09 12:36:31,604 - INFO - Created 2/2 users
+2026-06-11 10:23:06,567 - ERROR - Verification failed. Missing users: ['john@example.com', 'jane@example.com']
+2026-06-11 10:23:07,146 - INFO - User created: john@example.com
+2026-06-11 10:23:07,713 - INFO - User created: jane@example.com
+2026-06-11 10:23:07,715 - INFO - Created 2/2 users
