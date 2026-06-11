@@ -7,6 +7,7 @@ The project also includes logging, retry mechanisms, and error handling to refle
 
 ## Features
 Data-driven API testing using CSV input
+
 Automated user creation via POST requests
 User verification via GET requests
 Retry mechanism for handling transient API failures
