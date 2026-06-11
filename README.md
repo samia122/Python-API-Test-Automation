@@ -1,28 +1,34 @@
 # User Management API Testing Project
+
 ## Overview
 
 This project demonstrates real-world API testing using Python by performing data-driven user creation and validation against a REST API. It simulates backend test automation workflows where user data is dynamically read from a CSV file, processed via API requests, and validated through response verification.
 
 The project also includes logging, retry mechanisms, and error handling to reflect production-level test automation practices.
 
-## Features
-Data-driven API testing using CSV input
+---
 
-Automated user creation via POST requests
-User verification via GET requests
-Retry mechanism for handling transient API failures
-Centralized logging (console + file)
-Robust exception handling
-Response validation and data integrity checks
-Lightweight CI/CD-ready structure
+## Features
+
+- Data-driven API testing using CSV input  
+- Automated user creation via POST requests  
+- User verification via GET requests  
+- Retry mechanism for handling transient API failures  
+- Centralized logging (console + file)  
+- Robust exception handling  
+- Response validation and data integrity checks  
+- Lightweight CI/CD-ready structure  
+
+---
 
 ## Tech Stack
-Python 3
-Requests (HTTP client)
-CSV Module
-Logging Module
-Git & GitHub
-GitHub Actions (basic CI execution)
+
+- Python 3  
+- Requests (HTTP client)  
+- CSV Module  
+- Logging Module  
+- Git & GitHub  
+- GitHub Actions (basic CI execution)  
 
 ## Project Structure
 UserManagementAPI/
@@ -59,13 +65,13 @@ python api_test.py
 
 ## Test Workflow
 
-Load user data from users.csv
-Send POST requests to create users
-Retry failed API calls (up to 3 attempts)
-Log execution results
-Fetch user data using GET request
-Validate expected vs actual response data
-Generate final verification report in logs
+- Load user data from users.csv
+- Send POST requests to create users
+- Retry failed API calls (up to 3 attempts)
+- Log execution results
+- Fetch user data using GET request
+- Validate expected vs actual response data
+- Generate final verification report in logs
 
 ## Logging
 
@@ -99,22 +105,22 @@ It is a mock API used for learning purposes. While POST requests return success 
 
 This project demonstrates practical knowledge of:
 
-REST API automation testing
-HTTP methods (GET, POST)
-Data-driven testing approach
-Retry and resilience strategies
-Logging and debugging practices
-Exception handling in automation
-CSV-based test data management
-CI-ready test automation structure
+- REST API automation testing
+- HTTP methods (GET, POST)
+- Data-driven testing approach
+- Retry and resilience strategies
+- Logging and debugging practices
+- Exception handling in automation
+- CSV-based test data management
+- CI-ready test automation structure
 
 ## Future Improvements
-Add Pytest framework integration
-Generate HTML / Allure test reports
-Implement schema validation (JSON Schema)
-Add authentication-based API testing
-Expand CI/CD pipeline with test reporting artifacts
-Add parallel test execution support
+- Add Pytest framework integration
+- Generate HTML / Allure test reports
+- Implement schema validation (JSON Schema)
+- Add authentication-based API testing
+- Expand CI/CD pipeline with test reporting artifacts
+- Add parallel test execution support
 
 ## Author
 
