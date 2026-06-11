@@ -31,12 +31,14 @@ The project also includes logging, retry mechanisms, and error handling to refle
 - GitHub Actions (basic CI execution)  
 
 ## Project Structure
+```text
 UserManagementAPI/
 │
-├── users.csv # Test data source
-├── api_test.py # Main API test script
-├── app.log # Execution logs (auto-generated)
-├── README.md # Project documentation
+├── users.csv          # Test data source
+├── api_test.py        # Main API test script
+├── app.log            # Execution logs (auto-generated)
+├── README.md          # Project documentation
+```
 
 ## Test Data
 
