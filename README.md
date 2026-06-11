@@ -33,10 +33,10 @@ The project also includes logging, retry mechanisms, and error handling to refle
 ## Project Structure
 UserManagementAPI/
 │
-├── users.csv          # Test data source
-├── api_test.py        # Main API test script
-├── app.log            # Execution logs (auto-generated)
-├── README.md          # Project documentation
+├── users.csv # Test data source
+├── api_test.py # Main API test script
+├── app.log # Execution logs (auto-generated)
+├── README.md # Project documentation
 
 ## Test Data
 
