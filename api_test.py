@@ -76,6 +76,7 @@ def verify_users(expected_users):
 
 
 def main():
+    logging.info("Pipeline Test")
     users = load_users()
 
     success_count = 0
